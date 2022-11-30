@@ -21,8 +21,8 @@ public class FirstTest {
 		driver.findElement(By.xpath("//h5[text()='Elements']")).click();
 		Thread.sleep(3000);
 		
-		//driver.findElement(By.xpath("//[text()='card-body']")).click();
-		//Thread.sleep(2000);
+		driver.findElement(By.xpath("//[text()='card-body']")).click();
+		Thread.sleep(2000);
 		
 		driver.findElement(By.xpath("//span[text()='Web Table']")).click();
 		
